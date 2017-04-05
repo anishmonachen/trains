@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="legends" type="publisher" name="extra_publisher"/>
+  <node pkg="legends" type="subscriber" name="extra_subscriber" output="screen"/>
+</launch>
+
