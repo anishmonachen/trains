@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="turtlesim" type="turtlesim_node" name="extra_turtle"/>
+  <node pkg="legends" type="turtle_controller" name="extra_controller" output="screen"/>
+</launch>
+
