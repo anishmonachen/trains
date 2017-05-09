@@ -146,7 +146,7 @@ include_directories(
  add_dependencies(turtle_controller ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
  target_link_libraries(turtle_controller ${catkin_LIBRARIES})
 
-
+add_executable(pushup_maker src/pushup_maker.cpp)
 
 
 
